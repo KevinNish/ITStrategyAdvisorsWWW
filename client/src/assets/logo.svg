@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" fill="none">
+  <!-- Background circle for the icon -->
+  <circle cx="30" cy="30" r="25" fill="#2563eb" stroke="#1e40af" stroke-width="1"/>
+  
+  <!-- Strategic compass/navigation icon -->
+  <g transform="translate(30, 30)">
+    <!-- Central dot -->
+    <circle cx="0" cy="0" r="2" fill="white"/>
+    
+    <!-- Compass points -->
+    <path d="M0 -12 L4 -4 L0 -6 L-4 -4 Z" fill="white"/>
+    <path d="M12 0 L4 4 L6 0 L4 -4 Z" fill="white"/>
+    <path d="M0 12 L-4 4 L0 6 L4 4 Z" fill="white"/>
+    <path d="M-12 0 L-4 -4 L-6 0 L-4 4 Z" fill="white"/>
+    
+    <!-- Strategic network connections -->
+    <circle cx="8" cy="-8" r="1.5" fill="white" opacity="0.8"/>
+    <circle cx="8" cy="8" r="1.5" fill="white" opacity="0.8"/>
+    <circle cx="-8" cy="8" r="1.5" fill="white" opacity="0.8"/>
+    <circle cx="-8" cy="-8" r="1.5" fill="white" opacity="0.8"/>
+    
+    <!-- Connection lines -->
+    <line x1="0" y1="0" x2="8" y2="-8" stroke="white" stroke-width="0.5" opacity="0.6"/>
+    <line x1="0" y1="0" x2="8" y2="8" stroke="white" stroke-width="0.5" opacity="0.6"/>
+    <line x1="0" y1="0" x2="-8" y2="8" stroke="white" stroke-width="0.5" opacity="0.6"/>
+    <line x1="0" y1="0" x2="-8" y2="-8" stroke="white" stroke-width="0.5" opacity="0.6"/>
+  </g>
+  
+  <!-- Company name -->
+  <text x="70" y="25" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#1e293b">
+    IT Strategy Advisors
+  </text>
+  
+  <!-- Tagline -->
+  <text x="70" y="42" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#64748b">
+    Vendor-Agnostic Virtual CIO Services
+  </text>
+</svg>
