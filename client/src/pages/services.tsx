@@ -22,7 +22,7 @@ export default function Services() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-4xl lg:text-5xl font-bold text-vcio-secondary mb-6">
-              Fractional CIO Services
+              Virtual & Fractional CIO Services
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Get C-level technology leadership without the full-time commitment. Our fractional CIO model provides strategic guidance tailored to Canadian businesses, ensuring compliance with local regulations.
@@ -34,12 +34,17 @@ export default function Services() {
       {/* What is Fractional CIO */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-24">
             <div>
-              <h2 className="text-3xl font-bold text-vcio-secondary mb-6">What is a Fractional CIO?</h2>
+              <h2 className="text-3xl font-bold text-vcio-secondary mb-6">What is a Virtual or Fractional CIO?</h2>
               <p className="text-lg text-gray-600 mb-6">
-                A fractional CIO provides part-time, strategic technology leadership to Canadian organizations that need C-level expertise but don't require or can't afford a full-time executive. We step in as your business-first technology advocate, helping you make confident, long-term decisions without the influence of product margins or sales quotas.
-              </p>
+                A <strong>vCIO (Virtual Chief Information Officer)</strong> or <strong>Fractional CIO</strong> provides part-time, strategic technology leadership to Canadian organizations that need C-level expertise without the full-time cost. The difference comes down to the level of engagement:
+                </p>
+                <ul className="list-disc text-gray-600 pl-5 space-y-2 mb-6">
+                  <li><strong>vCIO</strong> – typically remote/virtual guidance, ideal for smaller organizations that just need a few hours of strategic advice per month.</li>
+                  <li><strong>Fractional CIO</strong> – a more involved, hands-on role that includes deeper integration with leadership, project oversight, and frequent interaction.</li>
+                </ul>
+                <p className="text-lg text-gray-600 mb-6">While the terms are often used interchangeably, the scope can scale with your needs. Some clients only need executive input at quarterly check-ins, while others rely on us for active leadership and IT alignment on an ongoing basis.</p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="text-vcio-accent h-6 w-6 mt-1 flex-shrink-0" />
