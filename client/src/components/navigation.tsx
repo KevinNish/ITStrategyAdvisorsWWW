@@ -1,4 +1,4 @@
-import { useState } from "react";
+3import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -45,7 +45,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center">
-              <img src="/logo.svg" alt="IT Strategy Advisors" className="h-20 w-auto" />
+              <img src="/logo.svg" alt="IT Strategy Advisors" className="h-23 w-auto" />
             </Link>
           </div>
           
