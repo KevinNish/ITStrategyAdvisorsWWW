@@ -111,7 +111,7 @@ export default function Services() {
             </div>
           </div>
 
-          <!-- Services Grid -->
+          {/* Services Grid */}
 <div className="mb-12 text-center">
   <h2 className="text-3xl font-bold text-vcio-secondary">Our Core Services</h2>
 </div>
