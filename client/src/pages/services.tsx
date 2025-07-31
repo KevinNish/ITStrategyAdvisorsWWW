@@ -114,10 +114,13 @@ export default function Services() {
             </div>
           </div>
 
+          {/* Core Services Header */}
+          <div className="mb-12 text-center">
+            <h2 className="text-3xl font-bold text-vcio-secondary">Our Core Services</h2>
+          </div>
+
           {/* Services Grid */}
-          
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
-            <h2 className="text-3xl font-bold text-vcio-secondary mb-6 text-center">Our Core Services</h2>
             <Card className="bg-vcio-neutral">
               <CardContent className="p-8">
                 <div className="w-12 h-12 bg-vcio-primary rounded-lg flex items-center justify-center mb-6">
@@ -179,8 +182,9 @@ export default function Services() {
             </Card>
           </div>
         </div>
+      </section>
 
-          {/* CTA Section */}
+      {/* CTA Section */}
       <section className="py-16 bg-vcio-secondary text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Transform Your Technology Strategy?</h2>
@@ -188,14 +192,12 @@ export default function Services() {
             Let’s talk about how strategic IT leadership can drive meaningful change in your business. No obligations. No product pushing. Just clarity.
           </p>
           <Link href="/contact">
-              <Button size="lg" className="bg-vcio-primary hover:bg-blue-700 text-white text-lg">
+            <Button size="lg" className="bg-vcio-primary hover:bg-blue-700 text-white text-lg">
               Schedule Your Consultation
-              </Button>
-            </Link>
-          </div>
-        </section>
-      </div>
-    </section>
-  </div>
+            </Button>
+          </Link>
+        </div>
+      </section>
+    </div>
   );
 }
