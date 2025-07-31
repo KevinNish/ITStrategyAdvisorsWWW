@@ -138,8 +138,11 @@ export default function Services() {
     </Card>
   ))}
 </div>
-                {/* CTA Section */}
-      <section className="py-16 bg-vcio-secondary text-white">
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="w-full py-16 bg-vcio-secondary text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Transform Your Technology Strategy?</h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
@@ -150,9 +153,6 @@ export default function Services() {
               Schedule Your Consultation
             </Button>
           </Link>
-        </div>
-      </section>
-
         </div>
       </section>
     </div>
