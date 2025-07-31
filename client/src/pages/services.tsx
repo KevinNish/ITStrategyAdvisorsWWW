@@ -178,6 +178,7 @@ export default function Services() {
               </CardContent>
             </Card>
           </div>
+        </div>
 
           {/* CTA Section */}
       <section className="py-16 bg-vcio-secondary text-white">
