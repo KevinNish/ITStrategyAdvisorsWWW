@@ -12,10 +12,12 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold text-vcio-secondary leading-tight mb-6">
-                Your Technology. Your Strategy. <span className="text-vcio-primary">No Sales Agenda.</span>
+                <span className="block">Your Technology.</span>
+                <span className="block">Your Strategy.</span>
+                <span className="block text-vcio-primary">No Sales Agenda.</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                We're not another IT company recommending products based on margin. We're your trusted Canadian Virtual CIO—an independent technology advisor aligned exclusively with your business interests.
+                We help growing Canadian businesses make confident IT decisions based on what’s best for their business—not someone else’s product margins. Think of us as your strategic IT advisor, not a salesperson with a quota.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/contact">
@@ -46,11 +48,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-vcio-secondary mb-8">
-              Full Vendor Neutrality & Local Compliance Expertise
+              Strategic IT Leadership, Built for Canadian Businesses
             </h2>
             <div className="max-w-4xl mx-auto text-left">
               <p className="text-lg text-gray-600 mb-6">
-                With full vendor neutrality and local compliance expertise, we take ownership of your IT strategy from top to bottom:
+                We bring clarity and accountability to your IT strategy so you can focus on growing your business:
               </p>
               <ul className="space-y-3 text-lg text-gray-600 mb-8">
                 <li className="flex items-start">
@@ -88,28 +90,37 @@ export default function Home() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
+            {/* Card 1 */}
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-vcio-primary rounded-full flex items-center justify-center mx-auto mb-6">
                 <Shield className="text-white h-8 w-8" />
               </div>
-              <h3 className="text-xl font-semibold text-vcio-secondary mb-4">100% Vendor Agnostic</h3>
-              <p className="text-gray-600">No product sales, no hidden agendas. We recommend solutions based solely on your business needs.</p>
+              <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Built on Trust, Not Commission</h3>
+              <p className="text-gray-600">
+                We don’t sell hardware or software. Our advice is based solely on what’s right for your business—not what boosts someone’s bottom line.
+              </p>
             </div>
-            
+
+            {/* Card 2 */}
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-vcio-accent rounded-full flex items-center justify-center mx-auto mb-6">
                 <Handshake className="text-white h-8 w-8" />
               </div>
               <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Extension of Your Team</h3>
-              <p className="text-gray-600">We integrate seamlessly with your business, understanding your culture and objectives deeply.</p>
+              <p className="text-gray-600">
+                We integrate seamlessly with your team, bridging the gap between business and technology—so nothing gets lost in translation.
+              </p>
             </div>
-            
+
+            {/* Card 3 */}
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
                 <TrendingUp className="text-white h-8 w-8" />
               </div>
-              <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Strategic Focus</h3>
-              <p className="text-gray-600">Beyond technical management - we align technology with your business strategy and growth plans.</p>
+              <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Business-First Technology Strategy</h3>
+              <p className="text-gray-600">
+                We bring clarity to IT decisions—helping you scale, stay secure, and invest wisely without the noise of upsells or biased vendor advice.
+              </p>
             </div>
           </div>
         </div>
@@ -151,7 +162,7 @@ export default function Home() {
           </div>
           
           <div className="text-center mt-12">
-            <p className="text-gray-600 mb-4">Have questions about fractional CIO services?</p>
+            <p className="text-gray-600 mb-4">Have questions about strategic IT advisory services?</p>
             <Link href="/faq">
               <Button variant="outline" className="border-vcio-primary text-vcio-primary hover:bg-vcio-primary hover:text-white">
                 View Frequently Asked Questions
@@ -163,3 +174,4 @@ export default function Home() {
     </div>
   );
 }
+
