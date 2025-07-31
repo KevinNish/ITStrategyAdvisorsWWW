@@ -180,7 +180,7 @@ export default function Services() {
           {/* CTA Section */}
           <section className="py-16 bg-vcio-secondary text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-              <h2 className="text-3xl font-bold mb-6">Ready to Transform Your Technology Strategy?</h2>
+              <h2 className="text-3xl font-bold mb-6">Amplify Your Mission with Technology</h2>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
                 Let’s talk about how strategic IT leadership can drive meaningful change in your business. No obligations. No product pushing. Just clarity.
               </p>
