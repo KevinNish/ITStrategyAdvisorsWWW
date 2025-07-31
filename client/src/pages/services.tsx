@@ -114,7 +114,69 @@ export default function Services() {
           </div>
 
           {/* Services Grid */}
-          <!-- (unchanged cards) -->
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="bg-vcio-neutral">
+              <CardContent className="p-8">
+                <div className="w-12 h-12 bg-vcio-primary rounded-lg flex items-center justify-center mb-6">
+                  <Route className="text-white h-6 w-6" />
+                </div>
+                <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Technology Roadmapping</h3>
+                <p className="text-gray-600">Develop comprehensive technology plans that support your business growth and transformation goals.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-vcio-neutral">
+              <CardContent className="p-8">
+                <div className="w-12 h-12 bg-vcio-accent rounded-lg flex items-center justify-center mb-6">
+                  <DollarSign className="text-white h-6 w-6" />
+                </div>
+                <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Budget Planning</h3>
+                <p className="text-gray-600">Create realistic technology budgets and ensure maximum ROI on all technology investments.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-vcio-neutral">
+              <CardContent className="p-8">
+                <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-6">
+                  <Users className="text-white h-6 w-6" />
+                </div>
+                <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Team Leadership</h3>
+                <p className="text-gray-600">Provide guidance and mentorship to your internal IT team and technology staff.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-vcio-neutral">
+              <CardContent className="p-8">
+                <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-6">
+                  <Lock className="text-white h-6 w-6" />
+                </div>
+                <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Security Strategy</h3>
+                <p className="text-gray-600">Develop and implement comprehensive cybersecurity frameworks to protect your business.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-vcio-neutral">
+              <CardContent className="p-8">
+                <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mb-6">
+                  <RefreshCw className="text-white h-6 w-6" />
+                </div>
+                <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Digital Transformation</h3>
+                <p className="text-gray-600">Guide your organization through digital transformation initiatives and process improvements.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-vcio-neutral">
+              <CardContent className="p-8">
+                <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center mb-6">
+                  <AlertTriangle className="text-white h-6 w-6" />
+                </div>
+                <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Crisis Management</h3>
+                <p className="text-gray-600">Provide leadership during technology emergencies and develop business continuity plans.</p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
 
           {/* CTA Section */}
           <section className="py-16 bg-vcio-secondary text-white">
