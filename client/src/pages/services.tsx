@@ -18,9 +18,9 @@ export default function Services() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-vcio-neutral to-white">
+      <section className="py-20 bg-vcio-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-10">
             <h1 className="text-4xl lg:text-5xl font-bold text-vcio-secondary mb-6">
               Virtual & Fractional CIO Services
             </h1>
@@ -32,13 +32,13 @@ export default function Services() {
       </section>
 
       {/* What is Fractional CIO */}
-      <section className="py-16 bg-white">
+      <section className="pt-8 pb-16 bg-vcio-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-24">
             <div>
               <h2 className="text-3xl font-bold text-vcio-secondary mb-6">What is a Virtual or Fractional CIO?</h2>
               <p className="text-lg text-gray-600 mb-6">
-                A <strong>Virtual CIO (or vCIO)</strong> or <strong>Fractional CIO</strong> provides part-time, strategic technology leadership to Canadian organizations that need C-level expertise without the full-time cost. The difference comes down to the level of engagement:
+                A <strong>vCIO (Virtual Chief Information Officer)</strong> or <strong>Fractional CIO</strong> provides part-time, strategic technology leadership to Canadian organizations that need C-level expertise without the full-time cost. The difference comes down to the level of engagement:
                 </p>
                 <ul className="list-disc text-gray-600 pl-5 space-y-2 mb-6">
                   <li><strong>vCIO</strong> – typically remote/virtual guidance, ideal for smaller organizations that just need a few hours of strategic advice per month.</li>
