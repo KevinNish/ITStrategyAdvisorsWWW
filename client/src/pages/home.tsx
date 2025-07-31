@@ -76,9 +76,9 @@ export default function Home() {
                   Managing vendors and outsourced IT providers to ensure you're getting the value you deserve
                 </li>
               </ul>
-              <div className="bg-vcio-neutral p-6 rounded-lg mb-8">
+              <div className="bg-vcio-neutral p-6 rounded-lg mb-8 border-l-4" style={{ borderColor: "var(--vcio-accent)" }}>
                 <p className="text-lg text-gray-700 mb-4">
-                  <strong>Already have an IT provider?</strong> We speak the geek—so you don't have to. We act as your advocate, cutting through the noise, holding vendors accountable, and ensuring your business isn't being taken advantage of.
+                  <strong>Already have an IT provider?</strong> We speak the geek—so you don’t have to. We act as your advocate, cutting through the noise, holding vendors accountable, and ensuring your business isn’t being taken advantage of.
                 </p>
               </div>
               <div className="text-center">
