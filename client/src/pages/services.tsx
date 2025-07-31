@@ -63,13 +63,14 @@ export default function Services() {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600"
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
                 alt="Professional consultant presenting technology roadmap to engaged business team"
                 className="rounded-xl shadow-lg w-full h-auto"
               />
             </div>
           </div>
 
+          {/* Engagement Process */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-vcio-secondary mb-6">How We Engage</h2>
             <p className="text-lg text-gray-600 mb-6">
@@ -114,7 +115,7 @@ export default function Services() {
           </div>
 
           {/* Services Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
             <Card className="bg-vcio-neutral">
               <CardContent className="p-8">
                 <div className="w-12 h-12 bg-vcio-primary rounded-lg flex items-center justify-center mb-6">
@@ -175,7 +176,7 @@ export default function Services() {
               </CardContent>
             </Card>
           </div>
-        </div>
+
           {/* CTA Section */}
           <section className="py-16 bg-vcio-secondary text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
