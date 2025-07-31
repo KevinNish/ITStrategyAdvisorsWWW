@@ -8,7 +8,10 @@ import {
   Lock,
   RefreshCw,
   AlertTriangle,
-  CheckCircle
+  CheckCircle,
+  FileText,
+  ShieldCheck,
+  Settings
 } from "lucide-react";
 
 export default function Services() {
@@ -70,132 +73,71 @@ export default function Services() {
             </div>
           </div>
 
-          {/* Engagement Process */}
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold text-vcio-secondary mb-6">How We Engage</h2>
-            <p className="text-lg text-gray-600 mb-6">
-              Our process is designed to make sure we're the right fit before anything else. We start with a brief 15-minute discovery call to determine whether your business would benefit from strategic IT guidance. From there, we move into a comprehensive assessment engagement.
-            </p>
-            <p className="text-lg text-gray-600 mb-6">
-              This assessment includes a thorough review of over 200 facets of your IT environment—covering infrastructure, cybersecurity, cloud usage, vendor relationships, processes, licensing, compliance posture, hardware, and more. Each finding is presented in terms of business risk: low, medium, high, or critical. Risk may mean risk of breach or risk of lost productivity, wasted money, or compliance exposure.
-            </p>
-            <p className="text-lg text-gray-600 mb-6">
-              Once the assessment is presented, we don’t just hand over a static document. We become your strategic partner. We walk you through each priority item, provide clarity on next steps, and guide you through the roadmap over time. We'll engage the vendors with you, we'll keep the projects in line with your business goals and budgets. Our ongoing fractional CIO services are tailored to your organization’s size, complexity, and regulatory environment, scaling from just a few hours per month to fully embedded leadership.
-            </p>
-            <p className="text-lg text-gray-600">
-              <strong>Note:</strong> Any large infrastructure projects or untangling of past technical debt identified during the assessment will be scoped separately as standalone projects. This ensures our ongoing vCIO services remain focused on strategy, leadership, and alignment—not buried in one-off technical remediation.
-            </p>
-          </div>
-
-          {/* Visual Roadmap */}
+          {/* Engagement Roadmap */}
           <div className="mb-20">
             <h2 className="text-3xl font-bold text-vcio-secondary mb-6 text-center">Our Engagement Process</h2>
             <div className="grid md:grid-cols-4 gap-6 text-center">
-              <div className="p-6 bg-vcio-neutral rounded-lg shadow-sm">
-                <p className="text-vcio-accent text-sm font-medium mb-2">Step 1</p>
-                <h4 className="text-lg font-semibold text-vcio-secondary mb-1">Right Fit Call</h4>
-                <p className="text-sm text-gray-600">15-minute conversation to understand your needs and whether we can help.</p>
-              </div>
-              <div className="p-6 bg-vcio-neutral rounded-lg shadow-sm">
-                <p className="text-vcio-accent text-sm font-medium mb-2">Step 2</p>
-                <h4 className="text-lg font-semibold text-vcio-secondary mb-1">Comprehensive Assessment</h4>
-                <p className="text-sm text-gray-600">Deep dive into over 200 areas of your IT, scored by business risk.</p>
-              </div>
-              <div className="p-6 bg-vcio-neutral rounded-lg shadow-sm">
-                <p className="text-vcio-accent text-sm font-medium mb-2">Step 3</p>
-                <h4 className="text-lg font-semibold text-vcio-secondary mb-1">Roadmap and Recommendations</h4>
-                <p className="text-sm text-gray-600">Clear summary of issues and actionable steps, prioritized by impact.</p>
-              </div>
-              <div className="p-6 bg-vcio-neutral rounded-lg shadow-sm">
-                <p className="text-vcio-accent text-sm font-medium mb-2">Step 4</p>
-                <h4 className="text-lg font-semibold text-vcio-secondary mb-1">Ongoing vCIO Engagement</h4>
-                <p className="text-sm text-gray-600">Flexible strategic IT engagement tailored to your business stage. Keeping you aligned with your technology goals.</p>
-              </div>
+              {[
+                {
+                  step: "Step 1",
+                  title: "Right Fit Call",
+                  desc: "15-minute conversation to understand your needs and whether we can help."
+                },
+                {
+                  step: "Step 2",
+                  title: "Comprehensive Assessment",
+                  desc: "Deep dive into over 200 areas of your IT, scored by business risk."
+                },
+                {
+                  step: "Step 3",
+                  title: "Roadmap and Recommendations",
+                  desc: "Clear summary of issues and actionable steps, prioritized by impact."
+                },
+                {
+                  step: "Step 4",
+                  title: "Ongoing vCIO Engagement",
+                  desc: "Flexible strategic IT engagement tailored to your business stage."
+                }
+              ].map((item, index) => (
+                <div
+                  key={index}
+                  className="p-6 bg-white border border-vcio-neutral rounded-xl shadow-md hover:shadow-xl transition-shadow"
+                >
+                  <p className="text-vcio-accent text-sm font-medium mb-2">{item.step}</p>
+                  <h4 className="text-lg font-semibold text-vcio-secondary mb-1">{item.title}</h4>
+                  <p className="text-sm text-gray-600">{item.desc}</p>
+                </div>
+              ))}
             </div>
           </div>
 
-          {/* Core Services Header */}
-          <div className="mb-12 text-center">
-            <h2 className="text-3xl font-bold text-vcio-secondary">Our Core Services</h2>
-          </div>
-
-          {/* Services Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
-            <Card className="bg-vcio-neutral">
-              <CardContent className="p-8">
-                <div className="w-12 h-12 bg-vcio-primary rounded-lg flex items-center justify-center mb-6">
-                  <Route className="text-white h-6 w-6" />
-                </div>
-                <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Technology Roadmapping</h3>
-                <p className="text-gray-600">Develop comprehensive technology plans that support your business growth and transformation goals.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-vcio-neutral">
-              <CardContent className="p-8">
-                <div className="w-12 h-12 bg-vcio-accent rounded-lg flex items-center justify-center mb-6">
-                  <DollarSign className="text-white h-6 w-6" />
-                </div>
-                <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Budget Planning</h3>
-                <p className="text-gray-600">Create realistic technology budgets and ensure maximum ROI on all technology investments.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-vcio-neutral">
-              <CardContent className="p-8">
-                <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-6">
-                  <Users className="text-white h-6 w-6" />
-                </div>
-                <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Team Leadership</h3>
-                <p className="text-gray-600">Provide guidance and mentorship to your internal IT team and technology staff.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-vcio-neutral">
-              <CardContent className="p-8">
-                <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-6">
-                  <Lock className="text-white h-6 w-6" />
-                </div>
-                <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Security Strategy</h3>
-                <p className="text-gray-600">Develop and implement comprehensive cybersecurity frameworks to protect your business.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-vcio-neutral">
-              <CardContent className="p-8">
-                <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mb-6">
-                  <RefreshCw className="text-white h-6 w-6" />
-                </div>
-                <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Digital Transformation</h3>
-                <p className="text-gray-600">Guide your organization through digital transformation initiatives and process improvements.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-vcio-neutral">
-              <CardContent className="p-8">
-                <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center mb-6">
-                  <AlertTriangle className="text-white h-6 w-6" />
-                </div>
-                <h3 className="text-xl font-semibold text-vcio-secondary mb-4">Crisis Management</h3>
-                <p className="text-gray-600">Provide leadership during technology emergencies and develop business continuity plans.</p>
-              </CardContent>
-            </Card>
-          </div>
+          <!-- Services Grid -->
+<div className="mb-12 text-center">
+  <h2 className="text-3xl font-bold text-vcio-secondary">Our Core Services</h2>
+</div>
+<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+  {[ 
+    { icon: <Route className='text-white h-6 w-6' />, color: 'bg-vcio-primary', title: 'Technology Roadmapping', description: 'Develop comprehensive technology plans that support your business growth and transformation goals.' },
+    { icon: <DollarSign className='text-white h-6 w-6' />, color: 'bg-vcio-accent', title: 'Budget Planning', description: 'Create realistic technology budgets and ensure maximum ROI on all technology investments.' },
+    { icon: <Users className='text-white h-6 w-6' />, color: 'bg-blue-600', title: 'Team Leadership', description: 'Provide guidance and mentorship to your internal IT team and technology staff.' },
+    { icon: <Lock className='text-white h-6 w-6' />, color: 'bg-purple-600', title: 'Security Strategy', description: 'Develop and implement comprehensive cybersecurity frameworks to protect your business.' },
+    { icon: <RefreshCw className='text-white h-6 w-6' />, color: 'bg-green-600', title: 'Digital Transformation', description: 'Guide your organization through digital transformation initiatives and process improvements.' },
+    { icon: <AlertTriangle className='text-white h-6 w-6' />, color: 'bg-red-600', title: 'Crisis Management', description: 'Provide leadership during technology emergencies and develop business continuity plans.' },
+    { icon: <FileText className='text-white h-6 w-6' />, color: 'bg-yellow-600', title: 'IT Policies & Procedures', description: 'Define clear, enforceable guidelines for technology use, access, and security.' },
+    { icon: <ShieldCheck className='text-white h-6 w-6' />, color: 'bg-pink-600', title: 'Compliance & Risk Management', description: 'Navigate evolving regulations like HIPAA and PIPEDA while reducing organizational risk.' },
+    { icon: <Settings className='text-white h-6 w-6' />, color: 'bg-indigo-600', title: 'Process Optimization', description: 'Improve efficiency and consistency by aligning technology with better workflows.' },
+  ].map((service, index) => (
+    <Card key={index} className="bg-vcio-neutral">
+      <CardContent className="p-8">
+        <div className={`w-12 h-12 ${service.color} rounded-lg flex items-center justify-center mb-6`}>
+          {service.icon}
         </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-16 bg-vcio-secondary text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-6">Ready to Transform Your Technology Strategy?</h2>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Let’s talk about how strategic IT leadership can drive meaningful change in your business. No obligations. No product pushing. Just clarity.
-          </p>
-          <Link href="/contact">
-            <Button size="lg" className="bg-vcio-primary hover:bg-blue-700 text-white text-lg">
-              Schedule Your Consultation
-            </Button>
-          </Link>
+        <h3 className="text-xl font-semibold text-vcio-secondary mb-4">{service.title}</h3>
+        <p className="text-gray-600">{service.description}</p>
+      </CardContent>
+    </Card>
+  ))}
+</div>
         </div>
       </section>
     </div>
