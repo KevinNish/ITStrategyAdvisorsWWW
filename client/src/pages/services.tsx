@@ -77,10 +77,10 @@ export default function Services() {
               Our process is designed to make sure we're the right fit before anything else. We start with a brief 15-minute discovery call to determine whether your business would benefit from strategic IT guidance. From there, we move into a comprehensive assessment engagement.
             </p>
             <p className="text-lg text-gray-600 mb-6">
-              This assessment includes a thorough review of over 200 facets of your IT environment—covering infrastructure, cybersecurity, cloud usage, vendor relationships, processes, licensing, compliance posture, and more. Each finding is presented in terms of business risk: low, medium, high, or critical. Risk may mean risk of breach or risk of lost productivity, wasted money, or compliance exposure.
+              This assessment includes a thorough review of over 200 facets of your IT environment—covering infrastructure, cybersecurity, cloud usage, vendor relationships, processes, licensing, compliance posture, hardware, and more. Each finding is presented in terms of business risk: low, medium, high, or critical. Risk may mean risk of breach or risk of lost productivity, wasted money, or compliance exposure.
             </p>
             <p className="text-lg text-gray-600 mb-6">
-              Once the assessment is presented, we outline a strategy and determine what level of ongoing engagement is appropriate. Our fractional CIO agreements are customized based on your organization's size, complexity, regulatory requirements, and the maturity of your current technology environment. Whether you need a few hours per month or a fully embedded advisor, we scale to your needs.
+              Once the assessment is presented, we don’t just hand over a static document. We become your strategic partner. We walk you through each priority item, provide clarity on next steps, and guide you through the roadmap over time. We'll engage the vendors with you, we'll keep the projects in line with your business goals and budgets. Our ongoing fractional CIO services are tailored to your organization’s size, complexity, and regulatory environment, scaling from just a few hours per month to fully embedded leadership.
             </p>
             <p className="text-lg text-gray-600">
               <strong>Note:</strong> Any large infrastructure projects or untangling of past technical debt identified during the assessment will be scoped separately as standalone projects. This ensures our ongoing vCIO services remain focused on strategy, leadership, and alignment—not buried in one-off technical remediation.
@@ -89,7 +89,7 @@ export default function Services() {
 
           {/* Visual Roadmap */}
           <div className="mb-20">
-            <h2 className="text-3xl font-bold text-vcio-secondary mb-6 text-center">Our Engagement Roadmap</h2>
+            <h2 className="text-3xl font-bold text-vcio-secondary mb-6 text-center">Our Engagement Process</h2>
             <div className="grid md:grid-cols-4 gap-6 text-center">
               <div className="p-6 bg-vcio-neutral rounded-lg shadow-sm">
                 <p className="text-vcio-accent text-sm font-medium mb-2">Step 1</p>
@@ -103,13 +103,13 @@ export default function Services() {
               </div>
               <div className="p-6 bg-vcio-neutral rounded-lg shadow-sm">
                 <p className="text-vcio-accent text-sm font-medium mb-2">Step 3</p>
-                <h4 className="text-lg font-semibold text-vcio-secondary mb-1">Roadmap & Recommendations</h4>
+                <h4 className="text-lg font-semibold text-vcio-secondary mb-1">Roadmap and Recommendations</h4>
                 <p className="text-sm text-gray-600">Clear summary of issues and actionable steps, prioritized by impact.</p>
               </div>
               <div className="p-6 bg-vcio-neutral rounded-lg shadow-sm">
                 <p className="text-vcio-accent text-sm font-medium mb-2">Step 4</p>
-                <h4 className="text-lg font-semibold text-vcio-secondary mb-1">Ongoing vCIO Support</h4>
-                <p className="text-sm text-gray-600">Flexible strategic IT engagement tailored to your business stage.</p>
+                <h4 className="text-lg font-semibold text-vcio-secondary mb-1">Ongoing vCIO Engagement</h4>
+                <p className="text-sm text-gray-600">Flexible strategic IT engagement tailored to your business stage. Keeping you aligned with your technology goals.</p>
               </div>
             </div>
           </div>
