@@ -45,7 +45,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center">
-              <img src="/src/assets/logo.svg" alt="IT Strategy Advisors Logo" className="h-10 w-auto" />
+              <img src="/logo.svg" alt="IT Strategy Advisors" className="h-10 w-auto" />
             </Link>
           </div>
           
