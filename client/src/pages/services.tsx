@@ -187,12 +187,14 @@ export default function Services() {
             Let’s talk about how strategic IT leadership can drive meaningful change in your business. No obligations. No product pushing. Just clarity.
           </p>
           <Link href="/contact">
-            <Button size="lg" className="bg-vcio-primary hover:bg-blue-700 text-white text-lg">
+              <Button size="lg" className="bg-vcio-primary hover:bg-blue-700 text-white text-lg">
               Schedule Your Consultation
-            </Button>
-          </Link>
-        </div>
-      </section>
-    </div>
+              </Button>
+            </Link>
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
   );
 }
