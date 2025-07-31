@@ -115,7 +115,9 @@ export default function Services() {
           </div>
 
           {/* Services Grid */}
+          
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+            <h2 className="text-3xl font-bold text-vcio-secondary mb-6 text-center">Our Core Services</h2>
             <Card className="bg-vcio-neutral">
               <CardContent className="p-8">
                 <div className="w-12 h-12 bg-vcio-primary rounded-lg flex items-center justify-center mb-6">
