@@ -18,14 +18,6 @@ export default function Manufacturing() {
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-vcio-neutral to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mb-8">
-            <Link href="/">
-              <Button variant="ghost" className="text-vcio-primary hover:text-blue-700">
-                <ArrowLeft className="h-4 w-4 mr-2" />
-                Back to Home
-              </Button>
-            </Link>
-          </div>
           <div className="text-center mb-16">
             <h1 className="text-4xl lg:text-5xl font-bold text-vcio-secondary mb-6">
               Manufacturing & Distribution
