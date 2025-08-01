@@ -51,7 +51,7 @@ export default function Manufacturing() {
                   <CheckCircle className="text-vcio-accent h-6 w-6 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-vcio-secondary">ERP Strategy & Implementation</h4>
-                    <p className="text-gray-600">Support for platforms like NetSuite, Microsoft Dynamics, SAP Business One, and Infor—selection, scoping, and deployment.</p>
+                    <p className="text-gray-600">Support for platforms like NetSuite, Microsoft Dynamics, SAP Business One, and Zoho, scoping, and deployment.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
@@ -71,8 +71,8 @@ export default function Manufacturing() {
               </div>
             </div>
             <div>
-              <img 
-                src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?ixlib=rb-4.0.3&auto=format&fit=crop&w=880&q=80" 
+              <img
+                src="https://images.unsplash.com/photo-1717386255773-a456c611dc4e?q=80&w=1170&auto=format&fit=crop&w=880&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                 alt="Modern manufacturing facility with automated systems and digital monitoring" 
                 className="rounded-xl shadow-lg w-full h-auto" 
               />
