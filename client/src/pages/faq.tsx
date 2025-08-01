@@ -15,7 +15,7 @@ export default function FAQ() {
               Frequently Asked Questions
             </h1>
             <p className="text-xl text-gray-100 max-w-3xl mx-auto">
-              Get answers to common questions about fractional CIO services and how we help Canadian businesses transform their technology strategy.
+              Get answers to common questions about our services and how we help Canadian businesses transform their technology strategy.
             </p>
           </div>
         </div>
