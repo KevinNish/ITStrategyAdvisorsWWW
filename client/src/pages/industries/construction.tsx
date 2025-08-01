@@ -113,7 +113,8 @@ export default function Construction() {
               </CardContent>
             </Card>
           </div>
-        </section>
+        </div>
+      </section>
 
       {/* CTA Section */}
       <section className="py-16 bg-vcio-secondary text-white">
