@@ -27,10 +27,10 @@ export default function FAQ() {
           <Accordion type="single" collapsible className="space-y-4">
             <AccordionItem value="what-is-fractional-cio">
               <AccordionTrigger className="text-left text-lg font-semibold text-vcio-secondary">
-                What exactly is a fractional CIO, and how is it different from IT support?
+                What exactly is a vCIO, and how is it different from IT support?
               </AccordionTrigger>
               <AccordionContent className="text-gray-600 text-base leading-relaxed">
-                A fractional CIO is a part-time technology executive who focuses on aligning your IT strategy with your business goals. Unlike day-to-day IT support, we’re not fixing printers—we’re helping you make decisions that reduce risk, cut waste, and enable growth.
+                A vCIO is a part-time technology advisor who focuses on aligning your IT strategy with your business goals. Unlike day-to-day IT support, we’re not fixing printers—we’re helping you make decisions that reduce risk, cut waste, and enable growth.
               </AccordionContent>
             </AccordionItem>
           
