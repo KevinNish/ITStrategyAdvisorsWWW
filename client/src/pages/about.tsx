@@ -5,13 +5,13 @@ export default function About() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-vcio-neutral to-white">
+      <section className="py-20 pb-8 bg-vcio-secondary text-white w-full">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h1 className="text-4xl lg:text-5xl font-bold text-vcio-secondary mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6">
               About IT Strategy Advisors
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-100 max-w-3xl mx-auto">
               Founded on the principle that SMBs deserve unbiased technology leadership, we've built our reputation on trust, expertise, and unwavering vendor neutrality.
             </p>
           </div>
@@ -25,7 +25,7 @@ export default function About() {
             <div>
               <h2 className="text-3xl font-bold text-vcio-secondary mb-6">Our Mission</h2>
               <p className="text-lg text-gray-600 mb-6">
-                To democratize access to C-level technology expertise for Canadian small and medium businesses, providing strategic guidance without the conflicts of interest that plague traditional IT consulting.
+                To empower Canadian small and medium businesses with clear, unbiased IT guidance, providing strategic roadmaps without the conflicts of interest that plague traditional IT consulting.
               </p>
               <p className="text-lg text-gray-600 mb-8">
                 We believe every business deserves a technology advocate who puts their interests first, not someone trying to sell them the next product or service.
@@ -81,35 +81,9 @@ export default function About() {
                     alt="Michael Chen, CEO" 
                     className="w-24 h-24 rounded-full mx-auto mb-4 object-cover" 
                   />
-                  <h3 className="text-xl font-semibold text-vcio-secondary mb-2">Michael Chen</h3>
-                  <p className="text-vcio-primary font-medium mb-3">Founder & CEO</p>
-                  <p className="text-gray-600 text-sm">Former CTO with 20+ years experience in enterprise technology strategy and SMB transformation.</p>
-                </CardContent>
-              </Card>
-              
-              <Card className="bg-vcio-neutral">
-                <CardContent className="p-8 text-center">
-                  <img 
-                    src="https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=400" 
-                    alt="Sarah Rodriguez, CTO" 
-                    className="w-24 h-24 rounded-full mx-auto mb-4 object-cover" 
-                  />
-                  <h3 className="text-xl font-semibold text-vcio-secondary mb-2">Sarah Rodriguez</h3>
-                  <p className="text-vcio-primary font-medium mb-3">Chief Technology Officer</p>
-                  <p className="text-gray-600 text-sm">Cybersecurity expert specializing in SMB risk management and compliance frameworks.</p>
-                </CardContent>
-              </Card>
-              
-              <Card className="bg-vcio-neutral">
-                <CardContent className="p-8 text-center">
-                  <img 
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=400" 
-                    alt="David Thompson, VP Strategy" 
-                    className="w-24 h-24 rounded-full mx-auto mb-4 object-cover" 
-                  />
-                  <h3 className="text-xl font-semibold text-vcio-secondary mb-2">David Thompson</h3>
-                  <p className="text-vcio-primary font-medium mb-3">VP of Strategy</p>
-                  <p className="text-gray-600 text-sm">Digital transformation specialist with deep experience in process optimization and change management.</p>
+                  <h3 className="text-xl font-semibold text-vcio-secondary mb-2">Kevin Nishimura</h3>
+                  <p className="text-vcio-primary font-medium mb-3">Founder & IT Strategy Advisor</p>
+                  <p className="text-gray-600 text-sm">Kevin is a seasoned IT leader with a passion for technology that began in childhood and evolved into a career dedicated to transforming how businesses use IT. As a former CTO and CIO, Kevin has guided hundreds of organizations through modernization, strategic planning, and digital transformation. He has played a pivotal role in the MSP industry; developing widely adopted tools and frameworks that continue to support service providers around the globe. A strong advocate for vendor-neutral solutions and open-source software, Kevin is known for his practical, business-aligned approach to IT strategy and his lasting contributions to the broader tech community.</p>
                 </CardContent>
               </Card>
             </div>
@@ -128,7 +102,7 @@ export default function About() {
                       ))}
                     </div>
                     <p className="text-gray-600 mb-4">
-                      "VentusCIO helped us save 40% on our technology budget while improving our security posture. Their vendor-agnostic approach gave us confidence we were getting the best solutions."
+                      "IT Strategy Advisors helped us identify serious gaps in our existing IT setup—including overbilling, outdated practices, and weak security controls. Kevin guided us through the process of replacing our provider, ensured a seamless transition, and built a roadmap that aligned with our business needs. He now continues to oversee our overall technology posture, holding vendors accountable and making sure our environment stays secure, efficient, and aligned with industry best practices. It’s made a huge difference having someone in our corner who’s truly on our side."
                     </p>
                     <div className="font-semibold text-vcio-secondary">Jennifer Walsh, CEO</div>
                     <div className="text-sm text-gray-500">Walsh & Associates Law Firm</div>
@@ -143,7 +117,7 @@ export default function About() {
                       ))}
                     </div>
                     <p className="text-gray-600 mb-4">
-                      "Finally, a technology advisor who actually understands our business. They've become an integral part of our strategic planning process."
+                      "It’s been a game changer having someone who actually gets our business and isn’t just talking tech for the sake of it. Kevin’s become a key part of our planning process, helping us make smarter decisions and keeping everything aligned. It’s a huge relief knowing someone’s looking out for our best interests."
                     </p>
                     <div className="font-semibold text-vcio-secondary">Robert Kim, President</div>
                     <div className="text-sm text-gray-500">Pacific Manufacturing Inc.</div>
