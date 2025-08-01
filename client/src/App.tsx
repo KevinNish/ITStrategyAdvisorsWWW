@@ -29,6 +29,7 @@ function Router() {
           <Route path="/industries/healthcare" component={Healthcare} />
           <Route path="/industries/financial-services" component={FinancialServices} />
           <Route path="/industries/manufacturing" component={Manufacturing} />
+          <Route path="/industries/construction" component={Construction} />
           <Route path="/industries/non-profit" component={NonProfit} />
           <Route path="/about" component={About} />
           <Route path="/faq" component={FAQ} />
