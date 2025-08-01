@@ -23,10 +23,10 @@ export default function Navigation() {
 
   const industryItems = [
     { path: "/industries/healthcare", label: "Healthcare & Medical" },
-    { path: "/industries/financial-services", label: "Financial Services" },
+    { path: "/industries/accountingfirms", label: "Accounting Firms" },
     { path: "/industries/manufacturing", label: "Manufacturing & Distribution" },
     { path: "/industries/construction", label: "Construction" },
-    { path: "/industries/professional-services", label: "Professional Services" },
+    { path: "/industries/financial-services", label: "Financial Services" },
     { path: "/industries/non-profit", label: "Non-Profit Organizations" },
   ];
 
