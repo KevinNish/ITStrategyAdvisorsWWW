@@ -18,13 +18,13 @@ export default function Services() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20 bg-vcio-light">
+      <section className="py-20 pb-8 bg-vcio-secondary text-white w-full">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <h1 className="text-4xl lg:text-5xl font-bold text-vcio-secondary mb-6">
+          <div className="text-center mb-16">
+            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6">
               Virtual & Fractional CIO Services
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-100 max-w-3xl mx-auto">
               Get C-level technology leadership without the full-time commitment. Our fractional CIO model provides strategic guidance tailored to Canadian businesses, ensuring compliance with local regulations.
             </p>
           </div>
