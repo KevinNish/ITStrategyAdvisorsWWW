@@ -4,12 +4,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import {
   CheckCircle,
   Settings,
-  Package,
-  BarChart3,
   Hammer,
   HardHat,
   ClipboardList,
-  ArrowLeft
 } from "lucide-react";
 
 export default function Construction() {
@@ -64,7 +61,7 @@ export default function Construction() {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600" 
+                src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.1.0&auto=format&fit=crop&w=800&h=600" 
                 alt="Construction management technology on-site with digital tools" 
                 className="rounded-xl shadow-lg w-full h-auto" 
               />
@@ -113,6 +110,33 @@ export default function Construction() {
               </CardContent>
             </Card>
           </div>
+
+          {/* Common Challenges */}
+          <Card className="bg-vcio-neutral">
+            <CardContent className="p-8">
+              <h2 className="text-2xl font-bold text-vcio-secondary mb-6">Construction Technology Challenges We Address</h2>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold text-vcio-secondary mb-3">Operational Friction</h4>
+                  <ul className="space-y-2 text-gray-600">
+                    <li>• Disconnected systems between office and job site</li>
+                    <li>• Slow or unreliable job site connectivity</li>
+                    <li>• Lack of standardization across tools and teams</li>
+                    <li>• Vendor and subcontractor misalignment</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-vcio-secondary mb-3">Strategic IT Gaps</h4>
+                  <ul className="space-y-2 text-gray-600">
+                    <li>• No clear IT roadmap or technology oversight</li>
+                    <li>• Limited documentation or asset inventory</li>
+                    <li>• Weak data governance or backup processes</li>
+                    <li>• Cybersecurity risks on unmanaged endpoints</li>
+                  </ul>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </section>
 
