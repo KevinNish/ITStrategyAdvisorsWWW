@@ -7,7 +7,7 @@ import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
 import Home from "@/pages/home";
 import Services from "@/pages/services";
-import ProfessionalServices from "@/pages/industries/professional-services";
+import AccountingFirms from "@/pages/industries/accountingfirms";
 import Healthcare from "@/pages/industries/healthcare";
 import FinancialServices from "@/pages/industries/financial-services";
 import Manufacturing from "@/pages/industries/manufacturing";
@@ -26,7 +26,7 @@ function Router() {
         <Switch>
           <Route path="/" component={Home} />
           <Route path="/services" component={Services} />
-          <Route path="/industries/professional-services" component={ProfessionalServices} />
+          <Route path="/industries/accountingfirms" component={AccountingFirms} />
           <Route path="/industries/healthcare" component={Healthcare} />
           <Route path="/industries/financial-services" component={FinancialServices} />
           <Route path="/industries/manufacturing" component={Manufacturing} />
