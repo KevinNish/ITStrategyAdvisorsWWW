@@ -64,7 +64,7 @@ export default function Construction() {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1581092160612-365aea45c41c?auto=format&fit=crop&w=800&q=80" 
+                src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600" 
                 alt="Construction management technology on-site with digital tools" 
                 className="rounded-xl shadow-lg w-full h-auto" 
               />
