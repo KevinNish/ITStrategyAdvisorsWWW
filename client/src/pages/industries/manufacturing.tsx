@@ -51,14 +51,14 @@ export default function Manufacturing() {
                   <CheckCircle className="text-vcio-accent h-6 w-6 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-vcio-secondary">ERP Strategy & Implementation</h4>
-                    <p className="text-gray-600">Support for platforms like NetSuite, Microsoft Dynamics, SAP Business One, and Zoho, scoping, and deployment.</p>
+                    <p className="text-gray-600">Support for platforms like NetSuite, Microsoft Dynamics, SAP Business One, and Infor—selection, scoping, and deployment.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="text-vcio-accent h-6 w-6 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold text-vcio-secondary">Supply Chain Optimization</h4>
-                    <p className="text-gray-600">Inventory visibility, vendor integration, logistics analytics, and EDI support across the chain.</p>
+                    <h4 className="font-semibold text-vcio-secondary">Plant-Wide Connectivity</h4>
+                    <p className="text-gray-600">Robust Wi-Fi and network infrastructure to support tablets, handheld scanners, and mobile workstations across the production floor and warehouse.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
@@ -71,8 +71,8 @@ export default function Manufacturing() {
               </div>
             </div>
             <div>
-              <img
-                src="https://images.unsplash.com/photo-1717386255773-a456c611dc4e?q=80&w=1170&auto=format&fit=crop&w=880&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+              <img 
+                src=\"https://images.unsplash.com/photo-1717386255773-a456c611dc4e?q=80&w=1170&auto=format&fit=crop&w=880&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" 
                 alt="Modern manufacturing facility with automated systems and digital monitoring" 
                 className="rounded-xl shadow-lg w-full h-auto" 
               />
@@ -131,6 +131,7 @@ export default function Manufacturing() {
                     <li>• Job costing and production scheduling</li>
                     <li>• Compliance and digital traceability</li>
                     <li>• Floor-to-office system communication</li>
+                    <li>• Reliable plant-wide wireless access for tablets and handhelds</li>
                   </ul>
                 </div>
                 <div>
