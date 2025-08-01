@@ -1,7 +1,16 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, Settings, Package, BarChart3, ArrowLeft } from "lucide-react";
+import {
+  CheckCircle,
+  Settings,
+  Package,
+  BarChart3,
+  Hammer,
+  HardHat,
+  ClipboardList,
+  ArrowLeft
+} from "lucide-react";
 
 export default function Manufacturing() {
   return (
@@ -22,7 +31,7 @@ export default function Manufacturing() {
               Manufacturing & Distribution
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Specialized fractional CIO services for small manufacturers, distributors, and supply chain companies.
+              Fractional CIO services for Canadian manufacturers and distributors needing better visibility, stronger systems, and strategic IT leadership.
             </p>
           </div>
         </div>
@@ -33,37 +42,37 @@ export default function Manufacturing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <h2 className="text-3xl font-bold text-vcio-secondary mb-6">Manufacturing Technology Excellence</h2>
+              <h2 className="text-3xl font-bold text-vcio-secondary mb-6">Modern IT for Industrial Operations</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Canadian manufacturing and distribution companies need integrated technology solutions to optimize operations, manage supply chains, and maintain competitive advantage while ensuring PIPEDA compliance. We understand the unique challenges of industrial technology.
+                Manufacturers and distributors face unique pressures—from tight margins to supply chain disruptions to regulatory audits. We help align your ERP, production systems, and IT infrastructure so your team can focus on building, not battling technology.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="text-vcio-accent h-6 w-6 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold text-vcio-secondary">ERP Integration</h4>
-                    <p className="text-gray-600">Comprehensive enterprise resource planning system selection and implementation.</p>
+                    <h4 className="font-semibold text-vcio-secondary">ERP Strategy & Implementation</h4>
+                    <p className="text-gray-600">Support for platforms like NetSuite, Microsoft Dynamics, SAP Business One, and Infor—selection, scoping, and deployment.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="text-vcio-accent h-6 w-6 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold text-vcio-secondary">Supply Chain Visibility</h4>
-                    <p className="text-gray-600">Real-time tracking and optimization of inventory and logistics processes.</p>
+                    <h4 className="font-semibold text-vcio-secondary">Supply Chain Optimization</h4>
+                    <p className="text-gray-600">Inventory visibility, vendor integration, logistics analytics, and EDI support across the chain.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="text-vcio-accent h-6 w-6 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold text-vcio-secondary">Smart Manufacturing</h4>
-                    <p className="text-gray-600">Industrial IoT implementation and automated production monitoring.</p>
+                    <h4 className="font-semibold text-vcio-secondary">Factory & Floor Integration</h4>
+                    <p className="text-gray-600">Real-time production dashboards, industrial IoT, SCADA connectivity, and quality control insights.</p>
                   </div>
                 </div>
               </div>
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600" 
+                src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?ixlib=rb-4.0.3&auto=format&fit=crop&w=880&q=80" 
                 alt="Modern manufacturing facility with automated systems and digital monitoring" 
                 className="rounded-xl shadow-lg w-full h-auto" 
               />
@@ -78,37 +87,34 @@ export default function Manufacturing() {
                   <Settings className="text-white h-6 w-6" />
                 </div>
                 <h3 className="font-semibold text-vcio-secondary mb-2">ERP Systems</h3>
-                <p className="text-gray-600 text-sm">Integrated business management and resource planning solutions.</p>
+                <p className="text-gray-600 text-sm">Business-wide planning, scheduling, MRP, and integrated operations tools.</p>
               </CardContent>
             </Card>
-            
             <Card>
               <CardContent className="p-6 text-center">
                 <div className="w-12 h-12 bg-vcio-accent rounded-lg flex items-center justify-center mx-auto mb-4">
                   <Package className="text-white h-6 w-6" />
                 </div>
                 <h3 className="font-semibold text-vcio-secondary mb-2">Supply Chain Management</h3>
-                <p className="text-gray-600 text-sm">Inventory tracking, logistics optimization, and vendor management.</p>
+                <p className="text-gray-600 text-sm">Warehouse systems, logistics integration, vendor automation, and forecasting tools.</p>
               </CardContent>
             </Card>
-            
             <Card>
               <CardContent className="p-6 text-center">
                 <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <BarChart3 className="text-white h-6 w-6" />
                 </div>
                 <h3 className="font-semibold text-vcio-secondary mb-2">Industrial IoT</h3>
-                <p className="text-gray-600 text-sm">Smart sensors, predictive maintenance, and production analytics.</p>
+                <p className="text-gray-600 text-sm">Sensor networks, machine uptime tracking, predictive maintenance, and OEE dashboards.</p>
               </CardContent>
             </Card>
-            
             <Card>
               <CardContent className="p-6 text-center">
                 <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="text-white h-6 w-6" />
                 </div>
-                <h3 className="font-semibold text-vcio-secondary mb-2">Quality Management</h3>
-                <p className="text-gray-600 text-sm">Quality control systems and compliance tracking solutions.</p>
+                <h3 className="font-semibold text-vcio-secondary mb-2">Quality & Compliance</h3>
+                <p className="text-gray-600 text-sm">Traceability, ISO readiness, digital forms, and reporting for PIPEDA, ISO, and CSA compliance.</p>
               </CardContent>
             </Card>
           </div>
@@ -116,24 +122,24 @@ export default function Manufacturing() {
           {/* Common Challenges */}
           <Card className="bg-vcio-neutral">
             <CardContent className="p-8">
-              <h2 className="text-2xl font-bold text-vcio-secondary mb-6">Manufacturing Technology Challenges We Solve</h2>
+              <h2 className="text-2xl font-bold text-vcio-secondary mb-6">Technology Challenges We Solve</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="font-semibold text-vcio-secondary mb-3">Small Manufacturers</h4>
+                  <h4 className="font-semibold text-vcio-secondary mb-3">Manufacturing Operations</h4>
                   <ul className="space-y-2 text-gray-600">
-                    <li>• Production planning and scheduling systems</li>
-                    <li>• Quality control and compliance tracking</li>
-                    <li>• Equipment maintenance management</li>
-                    <li>• Cost accounting and job costing</li>
+                    <li>• MES/SCADA integration with ERP</li>
+                    <li>• Job costing and production scheduling</li>
+                    <li>• Compliance and digital traceability</li>
+                    <li>• Floor-to-office system communication</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-vcio-secondary mb-3">Distribution Companies</h4>
+                  <h4 className="font-semibold text-vcio-secondary mb-3">Distribution & Supply Chain</h4>
                   <ul className="space-y-2 text-gray-600">
-                    <li>• Warehouse management systems (WMS)</li>
-                    <li>• Order processing automation</li>
-                    <li>• Transportation management</li>
-                    <li>• Customer portal and B2B integration</li>
+                    <li>• Multi-location warehouse systems</li>
+                    <li>• Order and inventory automation</li>
+                    <li>• Supplier portals and EDI systems</li>
+                    <li>• Freight visibility and logistics tracking</li>
                   </ul>
                 </div>
               </div>
@@ -145,13 +151,13 @@ export default function Manufacturing() {
       {/* CTA Section */}
       <section className="py-16 bg-vcio-secondary text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-6">Optimize Your Manufacturing Technology</h2>
+          <h2 className="text-3xl font-bold mb-6">Transform Your Industrial IT Strategy</h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Let's discuss how our manufacturing expertise can streamline operations and boost productivity.
+            Speak with a manufacturing-focused vCIO and get clarity on your tech stack, data flow, and long-term roadmap.
           </p>
           <Link href="/contact">
             <Button size="lg" className="bg-vcio-primary hover:bg-blue-700 text-white text-lg">
-              Schedule Your Consultation
+              Schedule a Strategy Call
             </Button>
           </Link>
         </div>
