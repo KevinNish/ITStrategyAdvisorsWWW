@@ -8,13 +8,13 @@ export default function FAQ() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-vcio-neutral to-white">
+      <section className="py-20 pb-8 bg-vcio-secondary text-white w-full">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h1 className="text-4xl lg:text-5xl font-bold text-vcio-secondary mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6">
               Frequently Asked Questions
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-100 max-w-3xl mx-auto">
               Get answers to common questions about fractional CIO services and how we help Canadian businesses transform their technology strategy.
             </p>
           </div>
