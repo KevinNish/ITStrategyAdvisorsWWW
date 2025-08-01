@@ -72,7 +72,7 @@ export default function Manufacturing() {
             </div>
             <div>
               <img 
-                src=\"https://images.unsplash.com/photo-1717386255773-a456c611dc4e?q=80&w=1170&auto=format&fit=crop&w=880&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\" 
+                src="https://images.unsplash.com/photo-1717386255773-a456c611dc4e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&&auto=format&fit=crop&w=800&h=600" 
                 alt="Modern manufacturing facility with automated systems and digital monitoring" 
                 className="rounded-xl shadow-lg w-full h-auto" 
               />
