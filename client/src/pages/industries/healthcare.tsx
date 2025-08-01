@@ -7,22 +7,14 @@ export default function Healthcare() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-vcio-neutral to-white">
+      <section className="py-20 pb-8 bg-vcio-secondary text-white w-full">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mb-8">
-            <Link href="/">
-              <Button variant="ghost" className="text-vcio-primary hover:text-blue-700">
-                <ArrowLeft className="h-4 w-4 mr-2" />
-                Back to Home
-              </Button>
-            </Link>
-          </div>
           <div className="text-center mb-16">
-            <h1 className="text-4xl lg:text-5xl font-bold text-vcio-secondary mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6">
               Healthcare & Medical
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Specialized fractional CIO services for medical practices, dental offices, therapy centers, and healthcare service providers.
+            <p className="text-xl text-gray-100 max-w-3xl mx-auto">
+              Specialized fractional CIO services for medical practices, therapy centers, and healthcare service providers.
             </p>
           </div>
         </div>
