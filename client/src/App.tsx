@@ -11,6 +11,7 @@ import ProfessionalServices from "@/pages/industries/professional-services";
 import Healthcare from "@/pages/industries/healthcare";
 import FinancialServices from "@/pages/industries/financial-services";
 import Manufacturing from "@/pages/industries/manufacturing";
+import Construction from "@/pages/industries/construction";
 import NonProfit from "@/pages/industries/non-profit";
 import About from "@/pages/about";
 import FAQ from "@/pages/faq";
