@@ -55,7 +55,7 @@ export default function AccountingFirms() {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1551836022-4c4c79ecde7e?auto=format&fit=crop&w=800&h=600" 
+                src="https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dauto=format&fit=crop&w=800&h=600" 
                 alt="Accountant working with cloud tax software" 
                 className="rounded-xl shadow-lg w-full h-auto" 
               />
